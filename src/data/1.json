@@ -1,0 +1,16 @@
+{
+  "sentences": [
+    {
+      "id": 1,
+      "name": "Elles sont _ en France cet été.",
+      "options": [{"id": 1, "name": "allées"},{"id": 2, "name": "allés"}],
+      "idok": 1
+    },
+    {
+      "id": 2,
+      "name": "Elles _ du poisson tous les vendredis.",
+      "options": [{"id": 1, "name": "manges"},{"id": 2, "name": "mangent"}],
+      "idok": 2
+    }
+  ]
+}

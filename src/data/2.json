@@ -1,0 +1,10 @@
+{
+  "sentences": [
+    {
+      "id": 1,
+      "name": "Les enfants _ dans le bois.",
+      "options": [{"id": 1, "name": "jouent"},{"id": 2, "name": "joue"}],
+      "idok": 1
+    }
+  ]
+}
