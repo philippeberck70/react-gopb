@@ -39,6 +39,7 @@ function Exercice() {
                 {
                     state.data.sentences.map((sentence) => (
                         <div key={sentence.id} className='mb-3' id={`id_divsentence_${sentence.id}`}>
+                            <hr></hr>
                             <h6>{parse(sentence.name.replace('_', '<u><span className="text-success" id="id_textok_' + sentence.id + '">___</span></u>'))}</h6>
                             {
                                 sentence.options.map((option) => (
@@ -47,6 +48,7 @@ function Exercice() {
                                     </div>
                                 ))
                             }
+                            
                         </div>
                     ))
                 }
